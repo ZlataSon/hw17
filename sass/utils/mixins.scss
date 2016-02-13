@@ -1,0 +1,13 @@
+/// btn
+
+@mixin btn {
+  display: inline-block;
+  margin: 0 auto;
+  outline: none;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 1.8em;
+}

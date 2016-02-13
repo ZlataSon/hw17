@@ -1,0 +1,40 @@
+/*===================
+   button
+   ====================*/
+
+
+/*===================
+   btn footer
+   ====================*/
+
+
+.join-1 {
+  @include btn;
+  padding: 1% 4%;
+  margin: 70px 15px 185px 15px;
+  background-color: transparent;
+  border: 3px solid $text-color-1;
+  color: $text-color-1;
+
+  &:hover, &:focus, &:active {
+    color: $text-color-1;
+    background: $text-color-2;
+    text-decoration: none;
+  }
+}
+
+.join-2 {
+  @include btn;
+  padding: 1% 4%;
+  margin: 70px 15px 185px 15px;
+  background-color: $color-bright;
+  border: 3px solid transparent;
+  color: $text-color-2;
+
+  &:hover, &:focus, &:active {
+    background: transparent;
+    border: 3px solid $color-bright;
+    color: $color-bright;
+    text-decoration: none;
+  }
+}

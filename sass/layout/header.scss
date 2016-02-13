@@ -1,0 +1,98 @@
+/*===================
+ header
+ ====================*/
+
+/*===================
+ navbar dropdown
+ ====================*/
+header .row {
+  padding: 10px 20px;
+  text-align: right;
+}
+
+header {
+  background: transparent;
+
+  .navbar-nav {
+    float: right;
+  }
+
+  nav {
+    background: transparent;
+  }
+
+  .navbar-default {
+    background-color: transparent;
+    border: none;
+  }
+
+  .nav > li > a {
+    font-size: 1.125em;
+    line-height: 1em;
+    color: $text-color-2;
+    text-decoration: none;
+    padding: 20px 25px;
+
+    &:hover, &focus {
+      background: transparent;
+      text-decoration: none;
+      color: $text-color-1;
+    }
+
+    &:active, &:link, &:visited {
+      background: transparent;
+    }
+  }
+}
+
+/// menu-burger 320px-1920px
+
+@media (min-width: 320px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .navbar-header .collapse, .navbar-toggle {
+    display: block !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+
+  header .dropdown {
+    background: transparent;
+    color: $text-color-2;
+  }
+
+  header li {
+    width: 100%;
+    white-space: nowrap;
+    text-overfolow: ellipsis;
+    overflow: hidden;
+  }
+
+  .navbar-toggle {
+    padding: 11px 10px;
+    margin: 15px 25px;
+  }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #13726f;
+  }
+
+  .navbar-toggle {
+    border: transparent;
+    border-radius: 4px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: $text-color-1;
+  }
+
+}
+
+
+
+

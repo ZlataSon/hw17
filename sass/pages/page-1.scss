@@ -1,0 +1,77 @@
+/*===================
+ page-1
+ ====================*/
+
+
+
+/*===================
+
+ ====================*/
+
+
+/*===================
+
+ ====================*/
+
+
+/*===================
+
+ ====================*/
+
+
+/*===================
+
+ ====================*/
+
+
+
+/*===================
+ lorem
+ ====================*/
+
+#lorem {
+  padding: 50px 0;
+  text-align: center;
+
+  .row div {
+    min-height: 250px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .jedi {
+    background: url('../img/jedi.png') no-repeat scroll center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  .droids {
+    background: url('../img/droids.png') no-repeat scroll center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  .battles {
+    background: url('../img/battles.png') no-repeat scroll center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  p.number {
+    color: $color-bright;
+    font-size: 2em;
+  }
+}
+
+
+
+

@@ -1,0 +1,50 @@
+/*===================
+   base
+   ====================*/
+
+body {
+  background: #000000 url("../img/bg.png") no-repeat scroll center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 320px;
+}
+
+.container-fluid {
+  max-width: 1920px;
+}
+
+/*===================
+   typography
+   ====================*/
+
+h2 {
+  color: $text-color-1;
+  font-size: 1.5em;
+  margin: 30px 0;
+}
+
+p {
+  color: $text-color-2;
+  font-size: 1.1em;
+}
+
+a {
+  color: $text-color-2;
+  font-size: 1.1em;
+}
+
+a:focus {
+  outline: none;
+}
+
+
