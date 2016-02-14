@@ -2,28 +2,63 @@
  page-1
  ====================*/
 
+/*===================
+ free
+ ====================*/
+
+#free {
+  text-align: center;
+}
+
+/*===================
+ pink
+ ====================*/
+
+.pink {
+  background: $color-bright;
+  padding: 20px 15px;
+  text-align: center;
+}
+/*===================
+ about
+ ====================*/
+#about {
+  padding-top: 20%;
+  padding-bottom: 7%;
+  text-align: center;
+
+  p {
+    margin: 30px 15px 70px 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+
+  #about .container-fluid {
+    background: transparent url("../img/border.png") no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #about p {
+    margin: 20px 10px 20px 10px;
+    font-size: 1em;
+  }
+}
 
 
 /*===================
-
+ last video
  ====================*/
 
-
-/*===================
-
- ====================*/
-
-
-/*===================
-
- ====================*/
-
-
-/*===================
-
- ====================*/
-
-
+#last {
+  padding: 50px 0;
+  text-align: center;
+}
 
 /*===================
  lorem
@@ -66,9 +101,51 @@
     background-size: contain;
   }
 
+  p {
+    margin: 0 5px;
+  }
+
   p.number {
     color: $color-bright;
     font-size: 2em;
+  }
+}
+
+/*===================
+ impression
+ ====================*/
+
+
+#impression {
+  padding-top: 35px;
+  text-align: center;
+
+  .quotes {
+    text-align: left;
+    padding: 35px 30px 30px 30px;
+
+    img {
+      float: left;
+      padding: 0 10px 0 0;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: $text-color-2;
+      border-left: none;
+    }
+
+    em {
+      text-transform: uppercase;
+      font-style: normal;
+      color: $text-color-2;
+      padding: 10px 20px;
+
+      span {
+        font-weight: 700;
+        color: $text-color-1;
+      }
+    }
   }
 }
 

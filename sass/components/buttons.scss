@@ -2,6 +2,52 @@
    button
    ====================*/
 
+/*===================
+   btn about
+   ====================*/
+
+.read {
+  @include btn;
+  padding: 1% 4%;
+  background-color: $color-bright;
+  border: 3px solid transparent;
+  color: $text-color-2;
+
+  &:hover, &:focus, &:active {
+    background: transparent;
+    border: 3px solid $color-bright;
+    color: $color-bright;
+    text-decoration: none;
+  }
+}
+
+/*===================
+   btn free circles
+   ====================*/
+
+
+.circles, .circle-md {
+  display: block;
+  border: 1px solid $text-color-1;
+  border-radius: 50%;
+  color: $text-color-1;
+  opacity: 0.8;
+  width: 90px;
+  height: 90px;
+  margin: 95px auto 80px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.circle-md {
+  width: 60px;
+  height: 60px;
+  margin: 13px auto;
+  background: transparent url("../img/down.png") no-repeat scroll center center;
+}
+
 
 /*===================
    btn footer
