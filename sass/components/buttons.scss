@@ -57,7 +57,7 @@
 .join-1 {
   @include btn;
   padding: 1% 4%;
-  margin: 70px 15px 185px 15px;
+  margin: 15px 15px;
   background-color: transparent;
   border: 3px solid $text-color-1;
   color: $text-color-1;
@@ -72,7 +72,7 @@
 .join-2 {
   @include btn;
   padding: 1% 4%;
-  margin: 70px 15px 185px 15px;
+  margin: 15px 15px;
   background-color: $color-bright;
   border: 3px solid transparent;
   color: $text-color-2;

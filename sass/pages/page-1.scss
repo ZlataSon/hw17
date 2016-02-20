@@ -55,10 +55,24 @@
  last video
  ====================*/
 
+
+
 #last {
   padding: 50px 0;
   text-align: center;
+  background: transparent;
+
+    #owl-demo-2 .item {
+      margin: 3px;
+    }
+    #owl-demo-2 .item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
 }
+
 
 /*===================
  lorem

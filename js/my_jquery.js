@@ -9,27 +9,20 @@ $('nav a[href^="#"]').click(function(){
     return false;
 });
 
+
 /**
- * video carousel
+ * Carousel
  */
 
-$('.owl-carousel').owlCarousel({
-    items:1,
-    merge:true,
-    loop:true,
-    margin:10,
-    video:true,
-    lazyLoad:true,
-    center:true,
-    responsive:{
-        480:{
-            items:2
-        },
-        600:{
-            items:4
-        }
-    }
-})
+$(document).ready(function() {
+
+    $("#owl-demo-2").owlCarousel({
+        items : 4,
+        lazyLoad : true,
+        navigation : true
+    });
+
+});
 
 
 
